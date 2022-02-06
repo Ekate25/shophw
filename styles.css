@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.headersheet {
+  background: grey;
+  height: 141px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.header-left {
+  display: flex;
+}
+
+.logo {
+  width: 83px;
+  height: 88px;
+  margin-left: 79px;
+  margin-top: 26px;
+}
+.shop {
+  height: 50px;
+  font: bold 48px/56px Roboto;
+  margin-left: 38px;
+  margin-top: 41px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-right: 43px;
+}
+
+.help {
+  font-size: 24px;
+  margin: 30px;
+  color: white;
+}
+
+.about-us {
+  font-size: 24px;
+  margin: 30px;
+  color: white;
+}
+
+.checkin {
+  font-size: 24px;
+  margin: 30px;
+  color: white;
+}
+
+.box-counter {
+  width: 64px;
+  height: 48px;
+  margin: 20px;
+  position: relative;
+}
+
+.cart {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+}
+
+.counter-buy {
+  background-color: red;
+  border-radius: 16px;
+  position: absolute;
+  right: 0px;
+  display: none;
+}
+
+.number-counter {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 10px;
+  color: white;
+  font-family: Roboto;
+}
+
+.headersheet2 {
+  height: 44px;
+  border-bottom: 1px solid #888888;
+  color: #888888;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sales {
+  height: 21px;
+}
+
+.buy {
+  height: 21px;
+  color: #888888;
+  margin-left: 62px;
+}
+
+.book-box {
+  width: 387px;
+  height: 500px;
+  border: 1px solid #888888;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px;
+}
+
+.book {
+  width: 153px;
+  height: 258px;
+  margin-top: 38px;
+}
+
+.book-title {
+  font: 24px/28px Roboto;
+  color: #888888;
+  margin-top: 28px;
+  height: 83px;
+  width: 286px;
+  text-align: center;
+}
+
+.add-to-cart {
+  padding: 17px 83px;
+  background-color: #888888;
+  border-radius: 10px;
+  color: white;
+  font-size: 24px;
+  border: #888888;
+  visibility: hidden;
+}
+
+.line-book-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.line-book-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.book-box:hover .add-to-cart {
+  visibility: visible;
+}
