@@ -67,8 +67,6 @@ body {
 
 .counter-buy {
   background-color: red;
-  width: 32px;
-  height: 32px;
   border-radius: 16px;
   position: absolute;
   right: 0px;
@@ -131,8 +129,7 @@ body {
 }
 
 .add-to-cart {
-  width: 276px;
-  height: 62px;
+  padding: 17px 83px;
   background-color: #888888;
   border-radius: 10px;
   color: white;

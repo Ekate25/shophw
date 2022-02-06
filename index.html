@@ -30,38 +30,40 @@
     </div>
     <div class="line-book-1">
       <div class="book-box">
-        <img src="HarryPotter.jpg" class="book" />
+        <img
+          src="HarryPotter.jpg"
+          class="book"
+          alt="Гарри Поттер и философский камень"
+        />
         <div class="book-title">Гарри Поттер и философский камень</div>
         <button class="add-to-cart" onclick="onClick()">В корзину</button>
       </div>
       <div class="book-box">
-        <img src="Ove.jpg" class="book" />
+        <img src="Ove.jpg" class="book" alt="Вторая жизнь Уве" />
         <div class="book-title">Вторая жизнь Уве</div>
         <button class="add-to-cart" onclick="onClick()">В корзину</button>
       </div>
     </div>
     <div class="line-book-2">
       <div class="book-box">
-        <img src="FlowersForAlgernon.jpg" class="book" />
+        <img
+          src="FlowersForAlgernon.jpg"
+          class="book"
+          alt="Цветы для Элджернона"
+        />
         <div class="book-title">Цветы для Элджернона</div>
         <button class="add-to-cart" onclick="onClick()">В корзину</button>
       </div>
       <div class="book-box">
-        <img src="PrideAndPrejudice.jpg" class="book" />
-        <div class="book-title">Гордость и предупреждение</div>
+        <img
+          src="PrideAndPrejudice.jpg"
+          class="book"
+          alt="Гордость и предубеждение"
+        />
+        <div class="book-title">Гордость и предубеждение</div>
         <button class="add-to-cart" onclick="onClick()">В корзину</button>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
-  <script>
-    const circle = document.querySelector(".counter-buy");
-    const push = document.querySelector(".add-to-cart");
-    const number = document.querySelector(".number-counter");
-    let counter = 0;
-    function onClick() {
-      counter = counter + 1;
-      number.textContent = counter;
-      circle.style.display = "block";
-    }
-  </script>
 </html>
